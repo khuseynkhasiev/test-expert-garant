@@ -1,0 +1,13 @@
+@import "/src/const/styles.css";
+
+.FooterApp {
+    width: 100%;
+    height: var(--FOOTER_HEIGHT);
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.FooterApp__text {
+    color: var(--TEXT_COLOR_FIRST);
+}

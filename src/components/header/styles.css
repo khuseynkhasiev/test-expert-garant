@@ -1,0 +1,12 @@
+@import "/src/const/styles.css";
+
+.HeaderApp {
+    width: 100%;
+    height: var(--HEADER_HEIGHT);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.HeaderApp__text {
+    color: var(--TEXT_COLOR_FIRST);
+}

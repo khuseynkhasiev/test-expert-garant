@@ -1,0 +1,11 @@
+:root {
+    --HEADER_HEIGHT: 100px;
+    --FOOTER_HEIGHT: 100px;
+
+    --CONTENT_HEIGHT_WITHOUT_HEADER_AND_FOOTER: calc(
+        100dvh - var(--HEADER_HEIGHT) - var(--FOOTER_HEIGHT)
+    );
+
+    --MAX_WIDTH_CONTENT: 1280px;
+    --TEXT_COLOR_FIRST: white;
+}
